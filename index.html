@@ -1,6 +1,5 @@
-<!-- main/templates/home.html -->
+<!-- index.html -->
 <!DOCTYPE html>
-{% load static %}
 <html lang="de">
 <head>
     <meta charset="UTF-8">
@@ -14,10 +13,10 @@
         padding: 0;
         height: 100vh;
         background: radial-gradient(circle, #cccccc, #ffffff 70%, #005678);
-}
+    }
     .content {
-        position: relative; /* Relativer Positionierungs-Kontext für den Inhalt */
-        z-index: 1; /* Inhalt über den Hintergrund legen */
+        position: relative;
+        z-index: 1;
         padding: 20px;
         text-align: center;
     }
@@ -28,7 +27,7 @@
     }
     .contact-info {
         margin-top: 20px;
-        background-color: transparent; /* Transparenter weißer Hintergrund für Kontaktdaten */
+        background-color: rgba(255, 255, 255, 0.5);
         padding: 10px;
         display: inline-block;
         border-radius: 8px;
@@ -36,9 +35,8 @@
     </style>
 </head>
 <body>
-
     <div class="content">
-        <img src="{% static 'logo100.png' %}" alt="Firmenlogo" class="logo">
+        <img src="logo100.png" alt="Firmenlogo" class="logo">
         <h3>Webseite ist in Bau</h3>
         <div class="contact-info">
             <p>Kontaktdaten:</p>
@@ -46,6 +44,5 @@
             <p>Email: mustafa@elbizanti.at</p>
         </div>
     </div>
-
 </body>
 </html>
