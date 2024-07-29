@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://mustafaflaysha.github.io/bizantibau_temp_page/sitemap.xml
